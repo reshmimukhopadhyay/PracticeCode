@@ -1,11 +1,6 @@
 package org.loop;
 
-import org.loop.loop1.ReverseNumber;
-import org.loop.practiceLoop.ArmstrongNumber;
-import org.loop.practiceLoop.FactorialOfANumber;
-import org.loop.practiceLoop.IntegerPallindrom;
-import org.loop.practiceLoop.ReverseString;
-import org.loop.practiceLoop.StringPallindrom;
+import org.loop.practiceLoop.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -52,11 +47,18 @@ public class Main {
         /*ReverseString reverseString=new ReverseString();
         reverseString.reverseString();*/
 
-        FactorialOfANumber factorialOfANumber = new FactorialOfANumber();
+        /*FactorialOfANumber factorialOfANumber = new FactorialOfANumber();
         factorialOfANumber.factorialOfANumberWithWhileLoop();
         factorialOfANumber.factorialOfANumberWithForLoop1();
-        factorialOfANumber.factorialOfANumberWithForLoop2();
+        factorialOfANumber.factorialOfANumberWithForLoop2();*/
+
+        NumberSorting numberSorting = new NumberSorting();
+        //numberSorting.sortingProcessUsingTemporaryArray();
+        numberSorting.sortingProcessUsingSingleArray();
+
     }
+
+
 
 
 }
