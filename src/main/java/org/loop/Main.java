@@ -1,5 +1,6 @@
 package org.loop;
 
+import org.loop.loop1.ForLoop5;
 import org.loop.practiceLoop.*;
 
 public class Main {
@@ -17,8 +18,10 @@ public class Main {
         /*ForLoop4 fl3=new ForLoop4();
         fl3.loop4();*/
 
-        /*ForLoop5 fl4=new ForLoop5();
-        fl4.loop5();*/
+        ForLoop5 fl4=new ForLoop5();
+        //fl4.loop5();
+        fl4.isValidTriangle(60,60,60);
+
 
         /*ForLoop6 fl5=new ForLoop6();
         fl5.loop6();*/

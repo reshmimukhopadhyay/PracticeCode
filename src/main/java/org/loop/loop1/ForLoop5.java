@@ -26,6 +26,18 @@ public class ForLoop5 {
         System.out.println("Final answer: "+m);
 
     }
+        public boolean isValidTriangle(int angle1, int angle2, int angle3) {
+            // write your code here
+            if((angle1+angle2+angle3)==180){
+                System.out.println("It is Triangle");
+            }else if((angle1+angle2+angle3)>180){
+                System.out.println("It is not Triangle");
+            }
+            return true;
+
+        }
+
+
 
 
 }

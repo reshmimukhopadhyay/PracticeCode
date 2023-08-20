@@ -1,0 +1,88 @@
+int a=2,b=4,c=3;
+int a=2,b=4,c=3;
+System.out.printf("%d+%d+%d=%d",a,b,c,a+b+c).println()
+a=5;
+b=2
+System.out.printf("%d+%d+%d=%d",a,b,c,a+b+c).println()
+System.out.printf("%d+%d+%d=%d",a,b,c,a+b+c).println()
+System.out.printf("%d+%d+%d=%d",a,b,c,a+b+c).println()
+3*6
+$10
+b=2;
+c=9;
+b=2;
+c=9;
+b=2;
+c=9
+int d=5;
+if((a+b)>(c+d))
+System.out.println("Good");
+if((a+b)<(c+d))
+System.out.println("Good");
+b=60;
+c=60
+if((a+b+c)==180)
+System.out.println("It is triangle");
+b=60;
+c=45
+if((a+b+c)==180)
+System.out.println("It is triangle");
+if(a%2==0)
+System.out.println("It is even");
+int a=40;
+if(a%2==0)
+System.out.println("It is even");
+for(int i=1;i<=10;i++){
+    System.out.printf("%d*%d=%d",7*i,7,i).println();}
+for(int i=1;i<=10;i++){
+    System.out.printf("%d*%d=%d",7,i,7*i).println();}
+for(int i=1;i<=10;i++){
+    System.out.printf("%d*%d=%d",6,i,6*i).println();}
+for(int i=1;i<=10;i++){
+    System.out.printf("%d*%d=%d",10,i,10*i);}
+for(int i=1;i<=10;i++){
+    System.out.printf("%d*%d=%d",10,i,10*i).println();}
+for(int i=1;i<=10;i++){
+    System.out.printf("%d",i).println();}
+for(int i=10;i>=1;i--){
+    System.out.printf("%d",i).println();}
+for(int i=1;i<=10;i++){
+    i=i*i;
+    int a=i;
+    System.out.println(a);}
+for(int i=1;i<=10;i++){
+    int a=i*i;
+    System.out.println(a);}
+for(int i=1;i<=10;i++){
+    if(i%2==0){
+        int a=i*i;
+        System.out.println("i is even number");
+        System.out.println(a);}
+}
+for(int i=1;i<=10;i++){
+    if(i%2==1){}}
+for(int i=1;i<=10;i++){
+    if(i%2==1){
+        int a=i*i;
+        System.out.println(a);}}
+for(int i=1;i<=10;i++){
+    if(i%3==1){
+        int a=i*i;
+        System.out.println(a);}}
+for(int i=1;i<=10;i++){
+    if(i%3==0){
+        int a=i*i;
+        System.out.println(a);}}
+void sayHalloWorldThrice(){
+    for(int i=0;i<=2;i++){
+
+        
+            System.out.println("Hello World");
+    }}
+sayHalloWorldThrice()
+void printFourStatement(){
+    System.out.println("I've created my first variable");
+    System.out.println("I've created my first method");
+    System.out.println("I've created my first loop");
+    System.out.println("I'm excited to learn java");}
+printFourStatement()
