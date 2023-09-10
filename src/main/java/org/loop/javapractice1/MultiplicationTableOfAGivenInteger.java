@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class MultiplicationTableOfAGivenInteger {
 
 
-    public void multiPlicationTable(){
+    public void multiplicationTable(){
         Scanner scanner = new Scanner(System.in);
         System.out.print("Input the number (Table to be calculated) : " );
         int number = scanner.nextInt();
@@ -18,6 +18,6 @@ public class MultiplicationTableOfAGivenInteger {
     }
     public static void main(String[] args){
         MultiplicationTableOfAGivenInteger multiplicationTableOfAGivenInteger = new MultiplicationTableOfAGivenInteger();
-        multiplicationTableOfAGivenInteger.multiPlicationTable();
+        multiplicationTableOfAGivenInteger.multiplicationTable();
     }
 }
