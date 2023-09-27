@@ -13,6 +13,7 @@ public class FileExceptionWithPositiveNumber {
             while(scanner.hasNextLine()){
                 String line = scanner.nextLine();
                 System.out.println(line);
+
             }
 
         }catch (Exception exception){
@@ -22,6 +23,6 @@ public class FileExceptionWithPositiveNumber {
 
     public static void main(String[] args) throws Exception{
         FileExceptionWithPositiveNumber fileException = new FileExceptionWithPositiveNumber();
-        fileException.positiveNumber("file.txt");
+        fileException.positiveNumber("/Users/rmukhop2/Documents/PracticeProject/Practice/src/main/java/org/loop/exceptionPractice/file1.txt");
     }
 }
