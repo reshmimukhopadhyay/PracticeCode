@@ -1,9 +1,11 @@
 package org.loop.array;
 
+//Write a Java program to sort a numeric array and a string array.
+
 import java.util.Arrays;
 import java.util.Scanner;
 
-import static java.util.Arrays.sort;
+
 
 public class SortArrayNumericAndString {
 
@@ -20,7 +22,7 @@ public class SortArrayNumericAndString {
         for (int i = 0; i < number.length; i++) {
             number[i] = scanner.nextInt();
         }
-       Arrays.sort(number);
+        Arrays.sort(number);
         System.out.println(Arrays.toString(number));
     }
 
@@ -41,7 +43,7 @@ public class SortArrayNumericAndString {
 
     public static void main(String[] args){
         SortArrayNumericAndString sortArrayNumericAndString = new SortArrayNumericAndString();
-        //sortArrayNumericAndString.numericArraySort();
+        sortArrayNumericAndString.numericArraySort();
         sortArrayNumericAndString.StringArraySort();
     }
 }
