@@ -9,4 +9,7 @@
 /.gradle/buildOutputCleanup/outputFiles.bin
 /.gradle/file-system.probe
 /build/tmp/compileJava/previous-compilation-data.bin
-   
+.idea/gradle.xml
+.idea/misc.xml
+.idea/workspace.xml
+
